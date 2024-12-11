@@ -1,0 +1,237 @@
+body{
+    background:rgb(30, 30, 32);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10%;
+    margin-top: auto;
+    background-color: rgb(27, 26, 24);
+    height: 1009px;
+    width: 80%;
+    justify-content: center;
+   
+    
+}
+ 
+ header{
+    box-shadow: 1px 3px 6px rgba(36, 34, 34, 0.781);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(8, 53, 77, 0.857);
+   margin: 10%;
+   margin-top: auto;
+    position: fixed;
+    z-index: 1;
+    width: 80%;
+
+    
+        }
+ 
+ .logo{
+     display: flex;
+     align-items: center;
+     font-family:system-ui;
+     margin-left: -155px;
+ 
+ }
+ .logo img{
+    max-width: 67px;
+     max-height: 60px;
+     margin-right: 10px;
+     margin-top: 5px;
+     
+ 
+ }
+ .nombre-organizacion{
+     font-family:Play;
+     color: rgb(27, 230, 0);
+     font-size: 18px;
+ }
+ a{
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
+ nav {
+ margin: 10px;
+ font-family:sans-serif;
+ 
+ 
+ }
+ nav a{
+     padding: 10px;
+     padding-top: 15px;
+     text-decoration: none;
+     color: rgb(23, 228, 242);
+     font-weight: 600;
+     font-family: play;
+ 
+ 
+ 
+ }
+ nav a:hover{
+     color: rgb(117, 210, 12);
+ 
+ }
+ .menu{
+     display: none;
+     height: 50px;
+     float: right;
+     top: 40px;
+     cursor: pointer;
+     
+ 
+ }
+ .app{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 250px;
+    padding: 20px;
+}
+ #check{
+     display: none;
+ }
+ h1{
+    font-size: 19px;
+    padding: 10px;
+    color: aqua;
+}
+ .goclean{
+    background: rgb(16, 14, 14);
+    color: rgb(32, 213, 32);
+   margin: 20px;
+   
+   margin-top: 100px;
+   flex: 1; /* Ocupa el espacio principal */
+  padding: 1px;
+   height: 850px;
+   width: 540px;
+}
+p{
+    text-indent: 15px; /* Ajusta el valor de la sangría */
+    line-height: 1.6; /* Opcional: mejora la separación entre líneas */
+
+}
+
+ 
+ aside {
+    flex: 0 0 300px; /* Ancho fijo de 300px en pantallas grandes */
+    background-color: #322f2f;
+    padding: 19px;
+    margin: 98px 6px 4px 1px;
+    height: 710px;
+}
+aside h2{
+    color: aqua;
+    padding-bottom: 24px;
+}
+aside ul li a{
+    line-height: 243%;
+    color: rgb(71, 175, 6);
+}
+  footer p{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(20, 160, 160);
+    font-family: Play;
+    text-align: center;
+}
+ @media (max-width:800px){
+    .container{
+        
+        flex-wrap: wrap;
+        display: flex;
+        padding: 6px;
+        height: 1700px;
+        margin: 1px auto;
+        width: auto;
+    }
+ 
+     header{
+         flex-direction: row-reverse;
+         width: 95%;
+         height: 70px;
+         padding: 5px;
+        position: fixed;
+        display: flex;
+        margin:10px;
+        margin-top: auto;
+        align-items: center;
+        
+        }
+     .menu{
+         display: block;
+         order: 4;
+         
+ 
+     }
+     .logo{
+         margin-left: 8px;
+     }
+     
+ 
+         
+     .logo img {
+         height: 50px;
+         
+     }
+     
+     header nav{
+         position: fixed;
+         width: 96%;
+         height: 100vh;
+         background: rgba(16, 14, 14, 0.89);
+         top: 60px;
+         left: 100%;
+         text-align: center;
+         transition: all .5s;
+         z-index: 100;
+ 
+     }
+     header nav a{
+         display: block;
+         margin: 50px;
+         line-height: 30px;
+     }
+     nav a:hover. nav a.active{
+         background: red;
+     }
+     #check:checked ~ nav{
+         left: 0;
+     }  
+     .bienvenido{
+         margin-left: 10px;
+         margin-right: 10px;
+         margin-top: 80px;
+     }  
+     .goclean{
+        
+        justify-content: center;
+        background:  rgb(24, 21, 21);
+        color: rgb(32, 213, 32);
+        padding: 15px;
+       margin: 2px;
+       display:inline-block;
+       margin-top: 80px;
+       height: 1360px;
+
+     }
+     aside{
+        flex-wrap: wrap-reverse;
+        margin: 1px;
+        height: 190px;
+        
+    }
+    
+    .app{
+   display: block;
+   margin: 0 auto;
+    }
+   
+}

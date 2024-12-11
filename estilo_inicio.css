@@ -1,0 +1,206 @@
+body{
+    background:rgb(87, 87, 89);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+   
+ }
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10%;
+    margin-top: auto;
+    height: 505px;
+    background-color: rgb(44, 42, 42);
+    height: 1009px;
+    width: 80%;
+    justify-content: center;
+    
+    
+}
+
+
+header{
+    box-shadow: 1px 3px 6px rgba(36, 34, 34, 0.781);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: rgba(8, 53, 77, 0.857);
+   margin: 10%;
+   margin-top: -18px;
+    position: fixed;
+    z-index: 1;
+    width: 80%;
+    margin-bottom: -4px;
+
+    
+        }
+
+.logo{
+    
+    display: flex;
+    align-items: center;
+    font-family:system-ui;
+    margin-left: -155px;
+
+}
+.logo img{
+    max-width: 67px;
+    max-height: 60px;
+    margin-right: 10px;
+    margin-top: 5px;
+    
+
+}
+.nombre-organizacion{
+    font-family:Play;
+    color: rgb(27, 230, 0);
+    font-size: 18px;
+}
+a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav {
+margin: 10px;
+font-family:sans-serif;
+
+
+}
+nav a{
+    padding: 10px;
+    padding-top: 15px;
+    text-decoration: none;
+    color: rgb(23, 228, 242);
+    font-weight: 600;
+    font-family: play;
+
+
+
+}
+nav a:hover{
+    color: rgb(117, 210, 12);
+
+}
+.menu{
+    display: none;
+    height: 50px;
+    float: right;
+    top: 40px;
+    cursor: pointer;
+    
+
+}
+#check{
+    display: none;
+}
+.bienvenido{
+    margin: 10%;
+    margin-top: 90px;
+    
+}
+footer{
+    background: rgb(46, 43, 43);
+    margin-right: 10px;
+    margin-left: 10px;
+    color: rgb(20, 160, 160);
+    font-family: Play;
+    text-align: center;
+}
+@media (max-width:700px){
+    .container{
+        flex-wrap: wrap;
+        display: flex;
+        padding: 6px;
+        height: 1700px;
+        margin: 1px auto;
+        width: auto;
+    }
+
+    header{
+       
+        flex-direction: row-reverse;
+         width: 95%;
+         height: 70px;
+         padding: 5px;
+        position: fixed;
+        display: flex;
+        margin:10px;
+        align-items: center;
+        margin-top: -18px;
+        
+    }
+    .menu{
+        display: block;
+        order: 4;
+        
+
+    }
+    .logo{
+
+        margin-left: 8px;
+    
+    }
+    
+
+        
+    .logo img {
+        height: 0.5%;
+        border-radius: 50%;
+        padding-left: 0.1%;
+
+    
+    }
+    
+    
+
+        
+    header nav{
+        position: fixed;
+        width: 96%;
+        height: 100vh;
+        background: rgba(27, 25, 25, 0.89);
+        top: 70px;
+        left: 100%;
+        text-align: center;
+        transition: all .5s;
+        z-index: 100;
+
+    }
+    header nav a{
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+    }
+    nav a:hover. nav a.active{
+        background: red;
+    }
+    #check:checked ~ nav{
+        left: 0;
+    }  
+    .bienvenido{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 80px;
+    }  
+    footer{
+        background: rgb(33, 30, 30);
+   
+    
+}
+    
+
+    
+
+    
+    
+
+    
+
+   
+   
+
+
+
